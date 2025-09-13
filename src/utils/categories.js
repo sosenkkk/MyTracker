@@ -1,0 +1,11 @@
+export const CATEGORIES = [
+  "WHEY",
+  "SUPPLEMENTS",
+  "FOOD ITEMS",
+  "CASEIN",
+  "PLANT PROTEIN",
+  "VITAMINS",
+  "MINERALS",
+  "SNACKS / PROTEIN BARS",
+  "NUTS / SEEDS",
+];

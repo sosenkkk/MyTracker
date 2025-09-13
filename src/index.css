@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body * {
+  outline: 'none'
+}
+
+/* Light Theme (default) */
+.light-theme {
+  --bg-color: #f3f4f6;
+  --card-bg: #ffffff;
+  --text-color: #1f2937;
+  --header-bg: #3b82f6;
+  --header-text: #ffffff;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --bg-color: #1f2937;
+  --card-bg: #374151;
+  --text-color: #fcfcfc;
+  --header-bg: #111827;
+  --header-text: #f3f4f6;
+}
+
+/* Colorful Theme */
+.colorful-theme {
+  --bg-color: #fef3c7;  /* light yellow */
+  --text-color: #1e3a8a; /* dark blue */
+  --header-bg: #ec4899;  /* pink */
+  --header-text: #ffffff;
+}
+
+/* Apply variables */
+body, .light-theme, .dark-theme, .colorful-theme {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-bg);
+}
+
+header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+}
