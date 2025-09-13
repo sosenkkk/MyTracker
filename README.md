@@ -8,8 +8,6 @@ A **React + Tailwind CSS dashboard** for tracking health products and electrical
 
 -[link](https://my-tracker-jp2fxyp0o-sosenkkks-projects.vercel.app)
 
---
-
 ## Table of Contents
 
 - [Features](#features)  
